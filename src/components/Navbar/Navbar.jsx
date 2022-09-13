@@ -9,15 +9,18 @@ import {
   Typography,
 } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons';
+import useStyles from '../Products/Product/styles.js';
 
 const Navbar = () => {
+  const classes = useStyles();
+
   return (
     <div>
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
           <Typography variant="h6" className={classes.title} color="inherit">
             <img
-              src={}
+              src=""
               alit="Commerce.js"
               height="25px"
               className={classes.image}
